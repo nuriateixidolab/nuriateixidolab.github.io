@@ -1,0 +1,21 @@
+name: "my-website"
+title: "Med Traits"
+theme: theme.css
+description: |
+  medtraits
+output_dir: "."
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html    
+    - text: "Projects"
+      href: projects.html
+    - text: "Students & Teaching"
+      href: supervision.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Talks & Outreaches"
+      href: outreaches.html
+search: true
