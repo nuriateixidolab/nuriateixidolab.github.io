@@ -3,4 +3,4 @@ title: "supervision"
 output: html_document
 ---
 
-[coming soon]
+Here we will store the documents of the Euro-Marine Summer School 2025, Italy
