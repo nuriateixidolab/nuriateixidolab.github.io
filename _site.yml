@@ -18,4 +18,6 @@ navbar:
       href: publications.html
     - text: "Talks & Outreaches"
       href: outreaches.html
+    - text: "Summer School 2025"
+      href: class.html
 search: true
