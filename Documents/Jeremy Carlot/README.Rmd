@@ -1,3 +1,3 @@
-## Folder Name
+## GitHub Class
 
-In this folder you'll find...
+This class has been taugh for the last 3 years and is hosted at https://github.com/JayCrlt/GitHub_Tutorial 
