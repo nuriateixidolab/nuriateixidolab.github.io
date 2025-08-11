@@ -1,8 +1,5 @@
 name: "my-website"
-title: "Med Traits"
-theme: theme.css
-description: |
-  medtraits
+title: "Nuria Teixido Lab"
 output_dir: "."
 navbar:
   right:
