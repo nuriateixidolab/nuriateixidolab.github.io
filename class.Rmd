@@ -12,7 +12,7 @@ output: html_document
 
 ---
 
-## Course Overview
+## **Course Overview**
 
 <div class="justified">
 The PulseOcean Euromarine Summer School is a pioneering training initiative tackling critical
@@ -32,7 +32,7 @@ committed to research excellence and knowledge exchange across Europe.
 
 ---
 
-## Schedule
+## **Schedule**
 
 | Time          | Sunday 14                           | Monday 15                                            | Tuesday 16                                             | Wednesday 17                                          | Thursday 18                                            | Friday 19                                              | Saturday 20                           |
 |---------------|-----------------------------------|-----------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------|-------------------------------------|
@@ -49,7 +49,7 @@ committed to research excellence and knowledge exchange across Europe.
 
 ---
 
-## Documents
+## **Documents**
 
 All course materials will be organized and stored here by instructor for easy access.
 
