@@ -30,7 +30,7 @@ and Sustainable Development Goals (SDGs), particularly SDG 4 (Quality and Educat
 committed to research excellence and knowledge exchange across Europe.
 </div>
 
-![PulseOcean Course image](pictures/Figure_1_Castello.png)
+![PulseOcean Course image](pictures/Figure_2_Castello.png)
 ---
 
 ## **Schedule**
@@ -46,7 +46,11 @@ committed to research excellence and knowledge exchange across Europe.
 | 16:05-17:00   |                                   | **MEDAS-Lab**<br>Fieldwork preparation<br>Sensors + Alkalinity | **MEDAS-Meeting room**<br>Discussion results           | **MEDAS-Meeting room**<br>Discussion results (30 min) | **MEDAS-Meeting room**<br>Remote Sensing for ecological studies | ↳                                                        |                                     | 
 | 17:15-19:00   | **MEDAS**<br>Arrival & Welcome<br>Presentation teachers & students | ↳                                                     | **MEDAS-Lab**<br>Fieldwork prep (incubations)           | **MEDAS-Meeting room**<br>Biological aspects<br>Databases and resources provided by the OAI CC | ↳                                                       | ↳                                                        |                                     |
 | 19:00-20:00   |                                   |                                                     |                                                        | **Fieldwork prep (drones)**                             |                                                        |                                                         |                                     |
+---
 
+## **Schedule2**
+
+![PulseOcean Schedule](pictures/schedule1.png)
 
 ---
 
