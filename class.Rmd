@@ -53,14 +53,14 @@ committed to research excellence and knowledge exchange across Europe.
 
 All course materials will be organized and stored here by instructor for easy access.
 
-📁 **Jordi Boada**  
-📁 **Jérémy Carlot**  
-📁 **Antonia Chiarore**  
-📁 **Steeve Comeau**  
-📁 **Massimiliano Corsini**  
-📁 **Sam Dupont**  
-📁 **Valerio Mazella**  
-📁 **Alice Mirasole**  
-📁 **Irene Olive**  
-📁 **Gaia Pavoni**  
-📁 **Núria Teixidó**  
+[📁 **Jordi Boada**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jordi%20Boada)  
+[📁 **Jérémy Carlot**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jeremy%20Carlot)  
+[📁 **Antonia Chiarore**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Antonia%20Chiarore)  
+[📁 **Steeve Comeau**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Steeve%20Comeau)  
+[📁 **Massimiliano Corsini**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Massimiliano%20Corsini)  
+[📁 **Sam Dupont**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Sam%20Dupont)  
+[📁 **Valerio Mazella**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Valerio%20Mazella)  
+[📁 **Alice Mirasole**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Alice%20Mirasole)  
+[📁 **Irene Olive**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Irene%20Olive)  
+[📁 **Gaia Pavoni**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Gaia%20Pavoni)  
+[📁 **Núria Teixidó**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Nuria%20Teixido)  
