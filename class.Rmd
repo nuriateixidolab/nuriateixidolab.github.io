@@ -36,14 +36,14 @@ committed to research excellence and knowledge exchange across Europe.
 </div>
 
 <div class="justified">
-![PulseOcean Course image](pictures/Figure_1_Castello.png)
+<img src="pictures/Figure_1_Castello.png" alt="PulseOcean Course image" width="800">
 </div>
 ---
 
 ## **Schedule**
 
 <div class="justified">
-![PulseOcean Schedule](pictures/schedule.png)
+<img src="pictures/schedule.png" alt="PulseOcean Schedule" width="800">
 </div>
 
 ---
