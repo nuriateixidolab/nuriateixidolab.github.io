@@ -8,6 +8,11 @@ output: html_document
   text-align: justify;
   text-justify: inter-word;
 }
+.justified img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
 
 ---
@@ -30,12 +35,16 @@ and Sustainable Development Goals (SDGs), particularly SDG 4 (Quality and Educat
 committed to research excellence and knowledge exchange across Europe.
 </div>
 
+<div class="justified">
 ![PulseOcean Course image](pictures/Figure_1_Castello.png)
+</div>
 ---
 
 ## **Schedule**
 
+<div class="justified">
 ![PulseOcean Schedule](pictures/schedule.png)
+</div>
 
 ---
 
@@ -43,8 +52,8 @@ committed to research excellence and knowledge exchange across Europe.
 
 All course materials will be organized and stored here by instructor for easy access.
 
-1. [📁 **Ocean Acidification**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jordi%20Boada)  
+1. [📁 **Ocean Acidification**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/1_ocean_acidification)  
 2. [📁 **GitHub**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jeremy%20Carlot)  
-3. [📁 **Databases**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Antonia%20Chiarore)  
-4. [📁 **Drones**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Steeve%20Comeau)  
-5. [📁 **TagLab**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Massimiliano%20Corsini)  
+3. [📁 **Databases**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/3_databases)  
+4. [📁 **Drones**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/4_drones)  
+5. [📁 **TagLab**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/5_taglab)  
