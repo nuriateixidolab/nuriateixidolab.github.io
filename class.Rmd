@@ -30,27 +30,12 @@ and Sustainable Development Goals (SDGs), particularly SDG 4 (Quality and Educat
 committed to research excellence and knowledge exchange across Europe.
 </div>
 
-![PulseOcean Course image](pictures/Figure_2_Castello.png)
+![PulseOcean Course image](pictures/Figure_1_Castello.png)
 ---
 
 ## **Schedule**
 
-| Time          | Sunday 14                           | Monday 15                                            | Tuesday 16                                             | Wednesday 17                                          | Thursday 18                                            | Friday 19                                              | Saturday 20                           |
-|---------------|-----------------------------------|-----------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------|---------------------------------------------------------|-------------------------------------|
-| 08:30-09:30h  |                                   | **MEDAS-Meeting room**<br>CO₂ vents Ischia           | **Fieldwork at CO₂ vents**<br>(snorkelling, sampling water, instruments) | **Fieldwork at CO₂ vents**<br>(drone surveys; orthomosaic Castello) | **MEDAS-Meeting room**<br>TagLab: Training your network & Hands-on dataset preparation | **MEDAS-Meeting room**<br>TagLab: Training your network & Hands-on dataset preparation | **MEDAS-Meeting room**<br>TagLab: training results |
-| 09:35-10:30   |                                   | ↳                                                   | ↳                                                      | ↳                                                     | ↳                                                        | ↳                                                         | ↳                                    | ↳
-| 10:45-12:00   |                                   | ↳                                                   | ↳                                                        | ↳                                                       | ↳                                                        | ↳                                                         | ↳                                     | ↳
-| 12:00-12:30   |                                   | ↳                                                   | ↳                                                       | ↳                                                      | ↳                                                        | ↳                                                        | ↳                                     | ↳
-| 12:30-14:00   |                                   | **Lunch**                                                     | **Lunch**                                                       | **Lunch**                                                      | **Lunch**                                              | **Lunch**                                                        | **Lunch**                                    | **Lunch**
-| 14:00-16:00   |                                   | **MEDAS-Meeting room**<br>Introduction to GitHub<br>R Package Seacarb | **MEDAS-Lab**<br>Downloading data Seacarb<br>Sharing with Github | **MEDAS-Lab**<br>Downloading data Seacarb<br>Sharing with Github | **MEDAS-Meeting room**<br>Wrap up 1st part<br>Photogrammetry with aerial images | **MEDAS-Meeting room**<br>TagLab: Training your network & Hands-on dataset preparation | **MEDAS-Meeting room**<br>Final discussion & questionnaire | ↳
-| 16:05-17:00   |                                   | **MEDAS-Lab**<br>Fieldwork preparation<br>Sensors + Alkalinity | **MEDAS-Meeting room**<br>Discussion results           | **MEDAS-Meeting room**<br>Discussion results (30 min) | **MEDAS-Meeting room**<br>Remote Sensing for ecological studies | ↳                                                        |                                     | 
-| 17:15-19:00   | **MEDAS**<br>Arrival & Welcome<br>Presentation teachers & students | ↳                                                     | **MEDAS-Lab**<br>Fieldwork prep (incubations)           | **MEDAS-Meeting room**<br>Biological aspects<br>Databases and resources provided by the OAI CC | ↳                                                       | ↳                                                        |                                     |
-| 19:00-20:00   |                                   |                                                     |                                                        | **Fieldwork prep (drones)**                             |                                                        |                                                         |                                     |
----
-
-## **Schedule2**
-
-![PulseOcean Schedule](pictures/schedule1.png)
+![PulseOcean Schedule](pictures/schedule.png)
 
 ---
 
@@ -58,14 +43,8 @@ committed to research excellence and knowledge exchange across Europe.
 
 All course materials will be organized and stored here by instructor for easy access.
 
-[📁 **Jordi Boada**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jordi%20Boada)  
-[📁 **Jérémy Carlot**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jeremy%20Carlot)  
-[📁 **Antonia Chiarore**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Antonia%20Chiarore)  
-[📁 **Steeve Comeau**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Steeve%20Comeau)  
-[📁 **Massimiliano Corsini**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Massimiliano%20Corsini)  
-[📁 **Sam Dupont**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Sam%20Dupont)  
-[📁 **Valerio Mazella**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Valerio%20Mazella)  
-[📁 **Alice Mirasole**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Alice%20Mirasole)  
-[📁 **Irene Olive**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Irene%20Olive)  
-[📁 **Gaia Pavoni**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Gaia%20Pavoni)  
-[📁 **Núria Teixidó**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Nuria%20Teixido)  
+1. [📁 **Ocean Acidification**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jordi%20Boada)  
+2. [📁 **GitHub**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jeremy%20Carlot)  
+3. [📁 **Databases**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Antonia%20Chiarore)  
+4. [📁 **Drones**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Steeve%20Comeau)  
+5. [📁 **TagLab**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Massimiliano%20Corsini)  
