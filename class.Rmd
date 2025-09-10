@@ -52,8 +52,9 @@ committed to research excellence and knowledge exchange across Europe.
 
 All course materials will be organized and stored here by instructor for easy access.
 
-1. [📁 **Ocean Acidification**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/1_ocean_acidification)  
-2. [📁 **GitHub**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jeremy%20Carlot)  
-3. [📁 **Databases**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/3_databases)  
-4. [📁 **Drones**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/4_drones)  
-5. [📁 **TagLab**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/5_taglab)  
+1. [📁 **Species identification**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/0_misc)  
+2. [📁 **Ocean Acidification**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/1_ocean_acidification)  
+3. [📁 **GitHub**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/Jeremy%20Carlot)  
+4. [📁 **Databases**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/3_databases)  
+5. [📁 **Drones**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/4_drones)  
+6. [📁 **TagLab**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/5_taglab)  
