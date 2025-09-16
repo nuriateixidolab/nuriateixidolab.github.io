@@ -1,3 +1,0 @@
-## Folder Name
-
-In this folder you'll find all the document you need to drop from the titrator to use the script

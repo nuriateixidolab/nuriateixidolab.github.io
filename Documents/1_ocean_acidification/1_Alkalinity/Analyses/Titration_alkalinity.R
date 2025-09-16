@@ -5,12 +5,13 @@
 rm(list = ls()) ; options(digits = 9, cores = 4, warn = -1)
 library(hms) ; library(tidyverse) ; library(seacarb) ; library(stringr) ; library(readr)
 
-calibration <- read.csv("Documents/1_ocean_acidification/Alkalinity/Data/Alkalinity_setup/calibration_TRIS.csv", dec = ",", sep = ";")
+# load 
+calibration <- read.csv("Documents/1_ocean_acidification/1_Alkalinity/Data/Alkalinity_setup/calibration_TRIS.csv", dec = ".", sep = ",")
 
 m0 <- as.numeric(readline("What is the sample's weight?"))
 # TO CHANGE IF CRM USED !!!
-S  <- 38
-#S <- 33.29
+#S  <- 38
+S <- 33.443 #https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/Dickson_CRM/batches.html
 
 #################################################################
 # Reading the databases: 
@@ -20,7 +21,7 @@ mVTris = calibration$mV[length(calibration$mV)]
 pHTris = calibration$pH[length(calibration$pH)]
 At <- NULL
 
-Folder <- "Documents/1_ocean_acidification/Alkalinity/Data/Titration_exports"
+Folder <- "Documents/1_ocean_acidification/1_Alkalinity/Data/Titration_exports"
 file  <- list.files(Folder)
 
 list_files  <- NULL 
@@ -104,6 +105,3 @@ sample_name <- append(sample_name, p[1, 8])
 
 Results <- cbind(At * 1000000, list_files) %>% as_tibble() %>% rename(At = V1) %>% dplyr::select(list_files, At)
 print(paste("The alkalinity of your sample is: ", round((At * 1000000), 2), sep = ""))
-
-# usefull fumctions
-pH <- pHTris + (mVTris / 1000 - 211 / 1000) / (R * (Tk) * log(10) / F)
