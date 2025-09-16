@@ -10,8 +10,8 @@ calibration <- read.csv("Documents/1_ocean_acidification/1_Alkalinity/Data/Alkal
 
 m0 <- as.numeric(readline("What is the sample's weight?"))
 # TO CHANGE IF CRM USED !!!
-S  <- 38
-#S <- 33.443 #https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/Dickson_CRM/batches.html
+#S  <- 38
+S <- 33.443 #https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/Dickson_CRM/batches.html
 
 #################################################################
 # Reading the databases: 
