@@ -5,6 +5,8 @@ library(readxl)
 library(dplyr)
 library(ggplot2)
 
+zscore <- function(x) {abs(x-mean(x))/sd(x)}
+
 
 #### Data ----
 light_low_1 <-read_excel("17_09_2025_HOBOpH_3_light_low(Data CEST).xlsx") %>%
@@ -90,21 +92,26 @@ pH_incubation <- light_low_1 %>%
   group_by(Date, site, treatment) %>%
   summarize(pHnbs = mean(pHnbs),
             Tin = mean(Tin)) %>%
-  mutate(id = paste(site, "_", treatment)) %>%
+  #mutate(id = paste(site, "_", treatment)) %>%
   mutate(Date=as.POSIXct(Date, format="%Y-%m-%d %H:%M")) %>%
   filter(!Date<as.POSIXct("2025-09-17 10:30", tz="UTC")) %>% #removing time before start of incubation
   filter(!Date>as.POSIXct("2025-09-17 12:00", tz="UTC")) %>% #removing time after incubation
   #filter(!Date<as.POSIXct("2025-09-17 08:30", tz="UTC")) %>% #removing time before start of incubation
   #filter(!Date>as.POSIXct("2025-09-17 10:00", tz="UTC")) %>% #removing time after incubation
-  #group_by(id)%>%
-  #mutate(z_pH =) %>%
-  #filter(!z_pH>3) %>%
-  #ungroup() %>%
+  group_by(site, treatment)%>%
+  mutate(z_pH = zscore(pHnbs)) %>%
+  filter(!z_pH>3) %>%
+  ungroup() %>%
   na.omit()
 
 
 #### Plots ----
+png(file="timeseries_pH_incubations.png", , width=8, height=5, units="in", res=300)
+
 ggplot(data = pH_incubation) +
-  #geom_line(aes(x=Date, y=pHnbs, color=id, linetype=treatment))+
-  geom_point(aes(x=Date, y=pHnbs, color=id))+
+  geom_point(aes(x=Date, y=pHnbs, color=site), size=1)+
+  #geom_line(aes(x=Date, y=pHnbs, color=site, linetype=treatment), linewidth=2)+
+  geom_smooth(aes(x=Date, y=pHnbs, color=site, linetype=treatment), method="loess", se=F, span=0.7, linewidth=2)+
   theme_bw()
+
+dev.off()
