@@ -1,12 +1,4 @@
-﻿Site Name ,GROTTA-MAGO-2M
-Site Number ,7
-Logger ,Integrating Light Sensor
-Logger Serial Number ,13350
-
-
-Scan No ,Date and Time,       Integrating Light,        ,
-        ,        ,RAW VALUE ,CALIBRATED VALUE,
-
+Scan No ,Date,  Time,RAW VALUE ,CALIBRATED VALUE
 1,17/09/2025 , 09:05:00,8,4.3
 2,17/09/2025 , 09:10:00,26,14
 3,17/09/2025 , 09:15:00,486,261
