@@ -10,13 +10,17 @@ library(ggplot2)
 ####### Equation Dickson, Calculation of pH,  page 106 du document total  (SOP 6a page 5 of 7). Guide to Best Practices for Ocean CO2 measurements
 
 
-tris<- read_excel("22068744 2025-04-23_tris.xlsx", sheet = 1)
-field<- read_excel("22068744 2025-04-25_hobo1.xlsx", sheet = 1)
+tris<- read_excel("../Data/22068745 2025-09-16-TRIS-6.xlsx", sheet = 1)
+field<- read_excel("../Data/22068745 2025-09-16-hobo6.xlsx", sheet = 1)
+
+
+tris<- read_excel("../Data/22068748 2025-09-16-TRIS-7.xlsx", sheet = 1)
+field<- read_excel("../Data/22068748 2025-09-16-hobo7.xlsx", sheet = 1)
 
 ### rename columns tris
 
 tris <- tris %>% 
-  select(3, 4)%>%
+  select(4, 5)%>%
   rename(
     TTris = 1,
     mVTris = 2)
@@ -25,9 +29,9 @@ field <- field %>%
   select(2,3,4,5)%>%
   rename(
     Date= 1,
-    Tin = 2,
-    mV = 3,
-    pHnbs= 4)
+    Tin = 3,
+    mV = 4,
+    pHnbs= 2)
 
 field$pHtotal <- NA # add new column pHtotal scale
 
