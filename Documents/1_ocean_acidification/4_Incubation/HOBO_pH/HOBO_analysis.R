@@ -87,13 +87,21 @@ pH_incubation <- light_low_1 %>%
   full_join(light_amb_1, by=c("Date", "Tin", "mV", "pHnbs", "site", "treatment", "chamber")) %>%
   full_join(light_amb_2, by=c("Date", "Tin", "mV", "pHnbs", "site", "treatment", "chamber")) %>%
   full_join(dark_amb_1, by=c("Date", "Tin", "mV", "pHnbs", "site", "treatment", "chamber")) %>%
+  group_by(Date, site, treatment) %>%
+  summarize(pHnbs = mean(pHnbs),
+            Tin = mean(Tin)) %>%
   mutate(id = paste(site, "_", treatment)) %>%
   mutate(Date=as.POSIXct(Date, format="%Y-%m-%d %H:%M")) %>%
+  filter(!Date<as.POSIXct("2025-09-17 10:30", tz="UTC")) %>% #removing time before start of incubation
+  filter(!Date>as.POSIXct("2025-09-17 12:00", tz="UTC")) %>% #removing time after incubation
   #filter(!Date<as.POSIXct("2025-09-17 08:30", tz="UTC")) %>% #removing time before start of incubation
   #filter(!Date>as.POSIXct("2025-09-17 10:00", tz="UTC")) %>% #removing time after incubation
+  #group_by(id)%>%
+  #mutate(z_pH =) %>%
+  #filter(!z_pH>3) %>%
+  #ungroup() %>%
   na.omit()
 
-  
 
 #### Plots ----
 ggplot(data = pH_incubation) +
