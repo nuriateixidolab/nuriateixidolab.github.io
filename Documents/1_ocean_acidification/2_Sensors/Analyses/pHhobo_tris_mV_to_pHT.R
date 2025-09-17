@@ -10,12 +10,17 @@ library(ggplot2)
 ####### Equation Dickson, Calculation of pH,  page 106 du document total  (SOP 6a page 5 of 7). Guide to Best Practices for Ocean CO2 measurements
 
 
+<<<<<<< HEAD
 tris<- read_excel("../Data/22068745 2025-09-16-TRIS-6.xlsx", sheet = 1)
 field<- read_excel("../Data/22068745 2025-09-16-hobo6.xlsx", sheet = 1)
 
 
 tris<- read_excel("../Data/22068748 2025-09-16-TRIS-7.xlsx", sheet = 1)
 field<- read_excel("../Data/22068748 2025-09-16-hobo7.xlsx", sheet = 1)
+=======
+tris<- read_excel("Data/LOW/22068750 2025-09-16 17_37_23_sensor5_tris.xlsx", sheet = 1)
+field<- read_excel("Data/LOW/22068750 2025-09-16 17_14_21_sensor5_field.xlsx", sheet = 1)
+>>>>>>> 99535c8733e4c447412c9f0da7b3e8ac5400acec
 
 ### rename columns tris
 
