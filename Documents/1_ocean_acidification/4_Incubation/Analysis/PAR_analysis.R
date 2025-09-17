@@ -22,9 +22,9 @@ df3$Time <- as.POSIXct(df3$Time, format = "%H:%M", tz = "UTC")
 
 ### EACH GROUP CHANGES THIS VALUE FOR THEIR EXPERIMENT ###
 
-# Filter for times between 09:10 and 12:10
-start <- as.POSIXct("09:10", format = "%H:%M", tz = "UTC")
-end   <- as.POSIXct("12:10", format = "%H:%M", tz = "UTC")
+# Filter for times between 10:28 and 12:02
+start <- as.POSIXct("10:32", format = "%H:%M", tz = "UTC")
+end   <- as.POSIXct("11:52", format = "%H:%M", tz = "UTC")
 
 df1 <- df1 %>% filter(Time >= start & Time <= end)
 df2 <- df2 %>% filter(Time >= start & Time <= end)
@@ -48,7 +48,7 @@ merged <- merged %>%
 # Plot average over time
 ggplot(merged, aes(x = Time, y = Average)) +
   geom_line(color = "blue", size = 1) +
-  labs(title = "Average Calibrated Value (09:10–12:10)",
+  labs(title = "Average Calibrated Value",
        x = "Time",
        y = "Calibrated Value") +
   theme_minimal()
