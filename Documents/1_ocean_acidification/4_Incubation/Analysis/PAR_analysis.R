@@ -23,8 +23,8 @@ df3$Time <- as.POSIXct(df3$Time, format = "%H:%M", tz = "UTC")
 ### EACH GROUP CHANGES THIS VALUE FOR THEIR EXPERIMENT ###
 
 # Filter for times between 10:28 and 12:02
-start <- as.POSIXct("10:32", format = "%H:%M", tz = "UTC")
-end   <- as.POSIXct("11:52", format = "%H:%M", tz = "UTC")
+start <- as.POSIXct("10:28", format = "%H:%M", tz = "UTC")
+end   <- as.POSIXct("12:02", format = "%H:%M", tz = "UTC")
 
 df1 <- df1 %>% filter(Time >= start & Time <= end)
 df2 <- df2 %>% filter(Time >= start & Time <= end)
@@ -75,7 +75,7 @@ ggplot(plotdata, aes(x = Time, y = Calibrated, color = Series)) +
     values = c("Value1" = "blue", "Value2" = "green", "Value3" = "orange", "Average" = "red")
   ) +
   labs(
-    title = "Calibrated Values with Average (09:10–12:10)",
+    title = "Calibrated Values with Average",
     x = "Time",
     y = "Calibrated Value",
     color = "Series"
