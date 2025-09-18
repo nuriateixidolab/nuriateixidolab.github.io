@@ -114,4 +114,4 @@ ggplot(data = pH_incubation) +
   geom_smooth(aes(x=Date, y=pHnbs, color=site, linetype=treatment), method="loess", se=F, span=0.7, linewidth=2)+
   theme_bw()
 
-dev.off()
+dev.off() 
