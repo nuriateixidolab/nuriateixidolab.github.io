@@ -57,3 +57,33 @@ All course materials will be organized and stored here by instructor for easy ac
 3. [📁 **Databases**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/3_databases)  
 4. [📁 **Drones**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/4_drones)  
 5. [📁 **TagLab**](https://github.com/nuriateixidolab/nuriateixidolab.github.io/tree/main/Documents/5_taglab)  
+
+## **Pictures**
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(1).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(2).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(6).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(4).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(5).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(3).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(7).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(8).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(9).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(10).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(12).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(13).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(14).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(17).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(18).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(19).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(20).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(21).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(22).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(25).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(11).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(15).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(16).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(23).jpg" style="width:150px; height:auto;"/>
+  <img src="https://raw.githubusercontent.com/nuriateixidolab/nuriateixidolab.github.io/main/pictures/foto%20alice%20(24).jpg" style="width:150px; height:auto;"/>
+</div>
