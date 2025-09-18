@@ -1,3 +1,6 @@
 ## GitHub Class
 
 This class has been taugh for the last 3 years and is hosted at https://github.com/JayCrlt/GitHub_Tutorial 
+You'll find the PDF [here](https://github.com/JayCrlt/GitHub_Tutorial/blob/main/Courses/GitHub_Tutorial.pdf)
+
+And don't forget: Stage, Commit, Pull & Push ;)
