@@ -5,7 +5,7 @@ library (ggplot2)
 library(dplyr)
 library(readxl)
 library(purrr)
-
+library(cowplot)
 
 setwd("C:/Github/nuriateixidolab.github.io/Documents/1_ocean_acidification/4_Incubation/Minidot_oxygen")
 
@@ -34,7 +34,7 @@ miniDOT_6_filt <- miniDOT_6_filt %>%
   ) %>%
   select(Time, DO, T)
 
-ggplot(miniDOT_6_filt, aes(x = Time, y = DO)) +
+low_light <- ggplot(miniDOT_6_filt, aes(x = Time, y = DO)) +
   geom_line() +             
   geom_point() +              
   labs(title = "Low pH + LIGHT (MiniDOT 6)",
@@ -104,7 +104,7 @@ miniDOT_3_filt <- miniDOT_3_filt %>%
   ) %>%
   select(Time, DO, T)
 
-ggplot(miniDOT_3_filt, aes(x = Time, y = DO)) +
+low_dark <- ggplot(miniDOT_3_filt, aes(x = Time, y = DO)) +
   geom_line() +             
   geom_point() +              
   labs(title = "Low pH + DARK (MiniDOT 3)",
@@ -199,7 +199,7 @@ miniDOT_4_filt <- miniDOT_4_filt %>%
   ) %>%
   select(Time, DO, T)
 
-ggplot(miniDOT_4_filt, aes(x = Time, y = DO)) +
+ambient_dark <- ggplot(miniDOT_4_filt, aes(x = Time, y = DO)) +
   geom_line() +             
   geom_point() +              
   labs(title = "Ambient pH + DARK (MiniDOT 4)",
@@ -213,22 +213,23 @@ ggplot(miniDOT_4_filt, aes(x = Time, y = DO)) +
 # MiniDOT 2:
 miniDOT_2 <- read_excel("2025-09-17 072300Z_AMB_LIGHT_sensor2_.xlsx")
 
-miniDOT_2_filt <- miniDOT_2 %>%
-  filter(Time >= as.POSIXct("2025-09-17 08:28:00") &
-           Time <= as.POSIXct("2025-09-17 9:58:00"))
+miniDOT_2 <- miniDOT_2 %>%
+  mutate(Time = as.character(Time))
+miniDOT_2$`DO (mg/l)` <- as.numeric(miniDOT_2$`DO (mg/l)`)
+miniDOT_2$Time <- as.POSIXct(miniDOT_2$Time, format = "%Y-%m-%d %H:%M:%S")
 
-
-miniDOT_2_filt$`DO (mg/l)` <- as.numeric(miniDOT_2_filt$`DO (mg/l)`)
-miniDOT_2_filt$Time <- as.POSIXct(miniDOT_2_filt$Time, format = "%Y-%m-%d %H:%M:%S")
-
-miniDOT_2_filt <- miniDOT_2_filt %>%
-  # renombrar columnas
+miniDOT_2 <- miniDOT_2 %>%
   rename(
     Time = Time,
     DO   = `DO (mg/l)`,
     T = `T (deg C)`
   ) %>%
   select(Time, DO, T)
+
+miniDOT_2_filt <- miniDOT_2 %>%
+  filter(Time >= as.POSIXct("2025-09-17 08:28:00", format = "%Y-%m-%d %H:%M:%S") &
+           Time <= as.POSIXct("2025-09-17 09:58:00", format = "%Y-%m-%d %H:%M:%S"))
+
 
 ggplot(miniDOT_2_filt, aes(x = Time, y = DO)) +
   geom_line() +             
@@ -242,16 +243,12 @@ ggplot(miniDOT_2_filt, aes(x = Time, y = DO)) +
 # MiniDOT 5:
 miniDOT_5 <- read_excel("2025-09-17 072400Z_AMB_LIGHT_sensor5_.xlsx")
 
-miniDOT_5_filt <- miniDOT_5 %>%
-  filter(Time >= as.POSIXct("2025-09-17 08:27:00") &
-           Time <= as.POSIXct("2025-09-17 10:01:00"))
+miniDOT_5 <- miniDOT_5 %>%
+  mutate(Time = as.character(Time))
+miniDOT_5$`DO (mg/l)` <- as.numeric(miniDOT_5$`DO (mg/l)`)
+miniDOT_5$Time <- as.POSIXct(miniDOT_5$Time, format = "%Y-%m-%d %H:%M:%S")
 
-
-miniDOT_5_filt$`DO (mg/l)` <- as.numeric(miniDOT_5_filt$`DO (mg/l)`)
-miniDOT_5_filt$Time <- as.POSIXct(miniDOT_5_filt$Time, format = "%Y-%m-%d %H:%M:%S")
-
-miniDOT_5_filt <- miniDOT_5_filt %>%
-  # renombrar columnas
+miniDOT_5 <- miniDOT_5 %>%
   rename(
     Time = Time,
     DO   = `DO (mg/l)`,
@@ -259,7 +256,12 @@ miniDOT_5_filt <- miniDOT_5_filt %>%
   ) %>%
   select(Time, DO, T)
 
-ggplot(miniDOT_5_filt, aes(x = Time, y = DO)) +
+miniDOT_5_filt <- miniDOT_5 %>%
+  filter(Time >= as.POSIXct("2025-09-17 08:27:00", format = "%Y-%m-%d %H:%M:%S") &
+           Time <= as.POSIXct("2025-09-17 10:01:00", format = "%Y-%m-%d %H:%M:%S"))
+
+
+ambient_light <-ggplot(miniDOT_5_filt, aes(x = Time, y = DO)) +
   geom_line() +             
   geom_point() +              
   labs(title = "Ambient pH + LIGHT (MiniDOT 5)",
@@ -268,6 +270,10 @@ ggplot(miniDOT_5_filt, aes(x = Time, y = DO)) +
   theme_bw()
 
 
+
+
+# general plot:
+plot_grid(low_light, low_dark, ambient_light, ambient_dark, labels = "AUTO", ncol = 2)
 
 
 # DATAFRAME
@@ -281,6 +287,24 @@ Sensor <- list(
   Minidot_6=miniDOT_6_filt,
   Minidot_7=miniDOT_7_filt,
   Minidot_8=miniDOT_8_filt)
-  
-All_minidots= Sensor|>
-  imap_dfr(~mutate(.x,sensor= .y))
+
+#make colums numeric function
+
+force_numeric <- function(df, col_name) {
+  df |>
+    mutate(
+      !!col_name := as.numeric(.data[[col_name]])
+    )
+}
+
+# Apply across all datasets, then combine
+
+All_minidots <- Sensor |>
+  map(~ force_numeric(.x, "T")) |> 
+  map(~ force_numeric(.x, "DO")) |>
+  imap_dfr(~ mutate(.x, sensor = .y))
+
+
+#write.csv(All_minidots, "All_minidots.csv", row.names = FALSE)
+
+
